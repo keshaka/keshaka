@@ -1,13 +1,12 @@
 <h1 align="center">Hi 👋, I'm Keshaka</h1>
 <h3 align="center">A passionate frontend developer from Sri Lanka</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=keshaka&label=Profile%20views&color=0e75b6&style=flat" alt="keshaka" /> </p>
-
 <div align="center"> 
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=keshaka&label=Profile%20views&color=0e75b6&style=flat" alt="keshaka" /> </p>
 
 # 💫 About Me:
 🔭 I’m currently studying at University of Moratuwa<br>👯 I’m looking to collaborate on development projects.<br>🤝 I’m looking for help with my partners.<br>🌱 I’m currently learning backend developing.<br>💬 Ask me about anything ?
-</div> 
 
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/keshaka.imal) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/keshakaimal) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/keshaka-imal-51b517309) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/Low-Case6172) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/30518825) 
@@ -33,3 +32,4 @@
 
   
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+</div> 
