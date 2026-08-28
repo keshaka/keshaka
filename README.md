@@ -27,7 +27,7 @@
 - 🧩 Interested in **Microservices and Distributed Systems**
 - 🤖 Experienced with **RAG, Vector Databases and Computer Vision**
 - 🔌 Experienced in **IoT and Embedded Systems**
-- 🚀 Experienced with **Docker, Kubernetes and CI/CD**
+- 🚀 Experienced with **Docker and CI/CD, GitHub Action**
 - 🐧 Comfortable working with **Linux and cloud infrastructure**
 
 ---
@@ -125,12 +125,12 @@
 ## 📊 GitHub Statistics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=keshaka&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=keshaka&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=keshaka&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=keshaka&layout=compact&theme=tokyonight&hide_border=true&count_private=true" height="170"/>
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=keshaka&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=keshaka&theme=tokyonight&hide_border=true" height="170"/>
 </p>
 
 ---
@@ -141,12 +141,7 @@ I'm always interested in collaborating on:
 
 - Full-stack applications
 - Cloud & DevOps
-- Backend systems
 - Microservices
 - AI-powered applications
-- IoT & embedded systems
 - Open-source projects
 
-<p align="center">
-  <i>Always learning. Always building. 🚀</i>
-</p>
