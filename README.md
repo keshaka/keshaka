@@ -52,53 +52,53 @@
 
 ## 💻 Tech Stack
 
+**Languages**
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,cs,python,ts,js,cpp,php&theme=dark" />
 </p>
+
+**Frameworks & Frontend**
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=dotnet,fastapi,nextjs,react,vite,tailwind&theme=dark" />
 </p>
 
+**Cloud & DevOps**
+
 <p align="center">
   <img src="https://skillicons.dev/icons?i=aws,digitalocean,cloudflare,docker,kubernetes,nginx,githubactions,linux&theme=dark" />
 </p>
+
+**Databases**
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,mssql&theme=dark" />
 </p>
 
-### AI & Machine Learning
+**AI, Machine Learning & Vector Search**
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/RAG-412991?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/YOLOv8-111F68?style=for-the-badge"/>
-</p>
-
-### Vector Databases & Embeddings
-
-<p>
   <img src="https://img.shields.io/badge/Vector_Search-6E56CF?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge"/>
 </p>
 
-### IoT & Embedded
+**IoT & Embedded**
 
-<p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=arduino&theme=dark" />
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/ESP8266-E7352C?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
   <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white"/>
   <img src="https://img.shields.io/badge/LoRaWAN-1F3C88?style=for-the-badge"/>
 </p>
 
-### Tools & Platforms
+**Tools & Platforms**
 
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma&theme=dark" />
   <img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
 </p>
 
