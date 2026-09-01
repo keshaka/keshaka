@@ -1,16 +1,33 @@
 name: Update GitHub Statistics
+
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
+
     steps:
+      # ==========================================
+      # Checkout main branch
+      # ==========================================
       - name: Checkout repository
         uses: actions/checkout@v6
+
+      # ==========================================
+      # Make sure profile directory exists
+      # ==========================================
+      - name: Create profile directory
+        run: mkdir -p profile
+
+      # ==========================================
+      # Generate GitHub Stats
+      # ==========================================
       - name: Generate GitHub Stats
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -18,6 +35,10 @@ jobs:
           options: username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR
           path: profile/stats.svg
           token: ${{ secrets.GH_STATS_TOKEN }}
+
+      # ==========================================
+      # Generate Top Languages
+      # ==========================================
       - name: Generate Top Languages
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -25,29 +46,59 @@ jobs:
           options: username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&count_private=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR
           path: profile/top-langs.svg
           token: ${{ secrets.GH_STATS_TOKEN }}
+
+      # ==========================================
+      # Generate Activity Graph
+      # ==========================================
+      - name: Generate Activity Graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: ${{ github.repository_owner }}
+          options: theme=tokyo-night&hide_border=true
+          output_path: profile/activity-graph.svg
+          token: ${{ secrets.GH_STATS_TOKEN }}
+
+      # ==========================================
+      # Generate GitHub Profile Trophy
+      # ==========================================
+      - name: Generate Profile Trophy
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: username=${{ github.repository_owner }}&theme=tokyonight&no-frame=true&row=1&column=7
+          path: profile/trophy.svg
+          token: ${{ secrets.GH_STATS_TOKEN }}
+
+      # ==========================================
+      # Generate Pac-Man Contribution Graph
+      # ==========================================
+      - name: Generate Pac-Man Contribution Graph
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          github_token: ${{ secrets.GH_STATS_TOKEN }}
+          games: 'pacman'
+
+      # ==========================================
+      # Copy Pac-Man SVGs to main branch
+      # ==========================================
+      - name: Copy Pac-Man SVGs
+        run: |
+          cp dist/pacman-contribution-graph.svg profile/pacman-contribution-graph.svg
+          cp dist/pacman-contribution-graph-dark.svg profile/pacman-contribution-graph-dark.svg
+
+      # ==========================================
+      # Commit everything to main
+      # ==========================================
       - name: Commit updated statistics
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add profile/*.svg
-          git commit -m "Update GitHub statistics" || exit 0
-          git push
-  generate-pacman:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 20
-    steps:
-      - name: Generate Pac-Man contribution graph
-        uses: abozanona/pacman-contribution-graph@main
-        with:
-          github_user_name: keshaka
-          # Comma-separated list of game names to generate. Default: pacman
-          games: 'pacman'
-      - name: Push output to "output" branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+          if git diff --cached --quiet; then
+            echo "No statistics changes detected."
+          else
+            git commit -m "Update GitHub statistics"
+            git push origin HEAD:main
+          fi
