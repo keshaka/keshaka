@@ -42,7 +42,7 @@
 
 ---
 
-## Currently Working On <img src="https://user-images.githubusercontent.com/74038190/226127923-0e8b7792-7b3c-462b-951b-63c96ba1a5af.gif">
+## <img src="https://user-images.githubusercontent.com/74038190/226127923-0e8b7792-7b3c-462b-951b-63c96ba1a5af.gif" width="30" height="30" alt="Working"> Currently Working On
 
 - Building distributed backend systems with ASP.NET Core & FastAPI
 - Exploring RAG pipelines with vector databases for real-world search applications
