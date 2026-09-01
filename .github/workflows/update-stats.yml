@@ -58,12 +58,14 @@ jobs:
           games: 'pacman'
 
       # ==========================================
-      # Copy Pac-Man SVGs to main branch
+      # Copy Pac-Man SVGs & Apply Custom Walls
       # ==========================================
-      - name: Copy Pac-Man SVGs
+      - name: Copy Pac-Man SVGs and Apply Custom Walls
         run: |
           cp dist/pacman-contribution-graph.svg profile/pacman-contribution-graph.svg
           cp dist/pacman-contribution-graph-dark.svg profile/pacman-contribution-graph-dark.svg
+          python3 scripts/apply_custom_walls.py
+
 
       # ==========================================
       # Commit everything to main
