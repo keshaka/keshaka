@@ -1,4 +1,6 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0A66C2&height=200&section=header&text=Hi%20👋,%20I'm%20Keshaka%20Imal&fontSize=40&fontColor=fff&animation=fadeIn" />
+<h1 align="center">
+  Hi <img src="./profile/wave.gif" width="35" height="35" alt="wave" />, I'm Keshaka Imal
+</h1>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=0A66C2&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Cloud+%26+DevOps+Enthusiast;Building+Scalable+Systems;Always+Learning+Something+New" />
@@ -28,7 +30,7 @@
 
 ---
 
-## <img src="./profile/bracket.gif" width="25" height="25">  About Me
+## <img src="./profile/bracket.gif" width="20" height="20">  About Me
 
 - 🎓 IT Undergraduate at the **University of Moratuwa**
 - 💻 Full-Stack Developer interested in building scalable software systems
