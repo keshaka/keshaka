@@ -114,10 +114,6 @@
 </p>
 
 <p align="center">
-  <img src="./profile/activity-graph.svg"/>
-</p>
-
-<p align="center">
   <img src="./profile/trophy.svg"/>
 </p>
 
