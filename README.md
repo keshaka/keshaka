@@ -120,28 +120,12 @@
 
 ---
 
-## 📌 Pinned Projects
-
-> Replace `your-repo-name` below with your actual repository names — you can add as many pin cards as you like.
-
-<p align="center">
-  <a href="https://github.com/keshaka/your-repo-name">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=keshaka&repo=your-repo-name&theme=tokyonight" />
-  </a>
-  <a href="https://github.com/keshaka/your-second-repo">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=keshaka&repo=your-second-repo&theme=tokyonight" />
-  </a>
-</p>
-
----
-
 ## 🐍 Contribution Snake
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/keshaka/keshaka/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
 
-> This needs the GitHub Action workflow (`snake.yml`) below to generate the SVG automatically.
 
 ---
 
