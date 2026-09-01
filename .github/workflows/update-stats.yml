@@ -32,22 +32,20 @@ jobs:
           git add profile/*.svg
           git commit -m "Update GitHub statistics" || exit 0
           git push
-
-  generate-snake:
+  generate-pacman:
     permissions:
       contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
-      - name: Generate snake SVG
-        uses: Platane/snk@v3
+      - name: Generate Pac-Man contribution graph
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: keshaka
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
+          # Comma-separated list of game names to generate. Default: pacman
+          games: 'pacman'
       - name: Push output to "output" branch
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
