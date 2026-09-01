@@ -72,8 +72,13 @@
 
 <p>
   <img src="https://img.shields.io/badge/RAG-412991?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Vector_Search-6E56CF?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/YOLOv8-111F68?style=for-the-badge"/>
+</p>
+
+### Vector Databases & Embeddings
+
+<p>
+  <img src="https://img.shields.io/badge/Vector_Search-6E56CF?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge"/>
 </p>
 
@@ -120,12 +125,15 @@
 
 ---
 
-## 🐍 Contribution Snake
+## 👻 Pac-Man Contribution Graph
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/keshaka/keshaka/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/keshaka/keshaka/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/keshaka/keshaka/output/pacman-contribution-graph.svg">
+    <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/keshaka/keshaka/output/pacman-contribution-graph.svg" />
+  </picture>
 </p>
-
 
 ---
 
