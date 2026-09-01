@@ -48,27 +48,6 @@ jobs:
           token: ${{ secrets.GH_STATS_TOKEN }}
 
       # ==========================================
-      # Generate Activity Graph
-      # ==========================================
-      - name: Generate Activity Graph
-        uses: maurodesouza/github-readme-activity-graph-action@v1
-        with:
-          username: ${{ github.repository_owner }}
-          options: theme=tokyo-night&hide_border=true
-          output_path: profile/activity-graph.svg
-          token: ${{ secrets.GH_STATS_TOKEN }}
-
-      # ==========================================
-      # Generate GitHub Profile Trophy
-      # ==========================================
-      - name: Generate Profile Trophy
-        uses: soulteary/github-profile-trophy-action@v1.0.0
-        with:
-          options: username=${{ github.repository_owner }}&theme=tokyonight&no-frame=true&row=1&column=7
-          path: profile/trophy.svg
-          token: ${{ secrets.GH_STATS_TOKEN }}
-
-      # ==========================================
       # Generate Pac-Man Contribution Graph
       # ==========================================
       - name: Generate Pac-Man Contribution Graph
