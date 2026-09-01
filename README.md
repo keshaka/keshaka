@@ -73,7 +73,7 @@
 <h3 align="center">Databases</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,mssql&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb&theme=dark" />
 </p>
 
 <h3 align="center">AI, Machine Learning & Vector Search</h3>
@@ -88,7 +88,6 @@
 <h3 align="center">IoT & Embedded</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=arduino&theme=dark" />
   <img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/ESP8266-E7352C?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white"/>
@@ -98,8 +97,7 @@
 <h3 align="center">Tools & Platforms</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma&theme=dark" />
-  <img src="https://img.shields.io/badge/Google_Antigravity-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,arduino,blender&theme=dark" />
 </p>
 
 ---
