@@ -148,4 +148,3 @@ I'm always interested in collaborating on:
 - AI-powered applications
 - Open-source projects
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0A66C2&height=100&section=footer" />
