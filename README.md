@@ -52,31 +52,31 @@
 
 ## 💻 Tech Stack
 
-**Languages**
+<h3 align="center">Languages</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,cs,python,ts,js,cpp,php&theme=dark" />
 </p>
 
-**Frameworks & Frontend**
+<h3 align="center">Frameworks & Frontend</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=dotnet,fastapi,nextjs,react,vite,tailwind&theme=dark" />
 </p>
 
-**Cloud & DevOps**
+<h3 align="center">Cloud & DevOps</h3>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,digitalocean,cloudflare,docker,kubernetes,nginx,githubactions,linux&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=aws,cloudflare,docker,kubernetes,nginx,githubactions,linux&theme=dark" />
 </p>
 
-**Databases**
+<h3 align="center">Databases</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,mssql&theme=dark" />
 </p>
 
-**AI, Machine Learning & Vector Search**
+<h3 align="center">AI, Machine Learning & Vector Search</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/RAG-412991?style=for-the-badge"/>
@@ -85,7 +85,7 @@
   <img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge"/>
 </p>
 
-**IoT & Embedded**
+<h3 align="center">IoT & Embedded</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=arduino&theme=dark" />
@@ -95,7 +95,7 @@
   <img src="https://img.shields.io/badge/LoRaWAN-1F3C88?style=for-the-badge"/>
 </p>
 
-**Tools & Platforms**
+<h3 align="center">Tools & Platforms</h3>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,vscode,figma&theme=dark" />
