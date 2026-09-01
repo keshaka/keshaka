@@ -28,7 +28,7 @@
 
 ---
 
-## 👨‍💻 About Me
+## <img src="./profile/bracket.gif" width="25" height="25">  About Me
 
 - 🎓 IT Undergraduate at the **University of Moratuwa**
 - 💻 Full-Stack Developer interested in building scalable software systems
@@ -42,7 +42,7 @@
 
 ---
 
-## <img src="https://user-images.githubusercontent.com/74038190/226127923-0e8b7792-7b3c-462b-951b-63c96ba1a5af.gif" width="30" height="30" alt="Working"> Currently Working On
+## <img src="./profile/working.gif" width="25" height="25"> Currently Working On
 
 - Building distributed backend systems with ASP.NET Core & FastAPI
 - Exploring RAG pipelines with vector databases for real-world search applications
@@ -50,7 +50,7 @@
 
 ---
 
-## 💻 Tech Stack
+## <img src="./profile/techstack.gif" width="25" height="25">  Tech Stack
 
 <h3 align="center">Languages</h3>
 
@@ -102,7 +102,7 @@
 
 ---
 
-## 📊 GitHub Statistics
+## <img src="./profile/stats.gif" width="25" height="25">  GitHub Statistics
 
 <p align="center">
   <img src="./profile/stats.svg" height="170"/>
@@ -115,7 +115,7 @@
 
 ---
 
-## 👻 Contribution Graph
+## <img src="./profile/contribution.gif" width="25" height="25">  Contribution Graph
 
 <p align="center">
   <picture>
@@ -136,7 +136,7 @@
 
 ---
 
-## 🤝 Let's Connect
+## <img src="./profile/handshake.png" width="25" height="25"> Let's Connect
 
 I'm always interested in collaborating on:
 
