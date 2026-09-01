@@ -1,37 +1,30 @@
 name: Update GitHub Statistics
-
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v6
-
       - name: Generate GitHub Stats
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&count_private=true
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR
           path: profile/stats.svg
           token: ${{ secrets.GH_STATS_TOKEN }}
-
       - name: Generate Top Languages
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true&langs_count=8
+          options: username=${{ github.repository_owner }}&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&count_private=true&role=OWNER,ORGANIZATION_MEMBER,COLLABORATOR
           path: profile/top-langs.svg
           token: ${{ secrets.GH_STATS_TOKEN }}
-
       - name: Commit updated statistics
         run: |
           git config user.name "github-actions[bot]"
