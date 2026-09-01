@@ -113,10 +113,6 @@
   <img src="https://streak-stats.demolab.com?user=keshaka&theme=tokyonight&hide_border=true"/>
 </p>
 
-<p align="center">
-  <img src="./profile/trophy.svg"/>
-</p>
-
 ---
 
 ## 👻 Contribution Graph
