@@ -14,6 +14,9 @@
   <a href="https://linkedin.com/in/keshaka-imal-51b517309">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
+  <a href="https://www.credly.com/users/keshaka">
+    <img src="https://img.shields.io/badge/Credly-FF6B00?style=for-the-badge&logo=credly&logoColor=white"/>
+  </a>
   <a href="https://stackoverflow.com/users/30518825">
     <img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white"/>
   </a>
@@ -134,6 +137,20 @@
       src="./profile/pacman-contribution-graph.svg"
     />
   </picture>
+</p>
+
+---
+
+## 🏆 Certifications & Badges
+
+<p align="center">
+  <a href="https://www.credly.com/badges/2786ccb9-4963-47a7-ba1a-ff17ce59954e/public_url" target="_blank">
+    <img src="https://images.credly.com/size/340x340/images/320bfb8f-e722-41b9-a70a-c3fb07402981/linkedin_thumb_blob" width="130" alt="AWS Cloud Quest: Solutions Architect" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.credly.com/badges/5eeff09f-c9e4-482d-93fe-57f8628ba7c8/public_url" target="_blank">
+    <img src="https://images.credly.com/size/340x340/images/5bdd6a39-3e03-4444-9510-ecff80c9ce79/linkedin_thumb_image.png" width="130" alt="Networking Basics - Cisco" />
+  </a>
 </p>
 
 ---
