@@ -11,7 +11,7 @@
 </h3>
 
 <p align="center">
-  <a href="https://linkedin.com/in/keshaka-imal-51b517309">
+  <a href="https://linkedin.com/in/keshaka-imal">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
   <a href="https://www.credly.com/users/keshaka">
