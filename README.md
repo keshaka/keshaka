@@ -144,12 +144,16 @@
 ## 🏆 Certifications & Badges
 
 <p align="center">
+  <a href="https://learn.microsoft.com/api/credentials/share/en-gb/keshakaimal-1475/4571F37D5D3F6185?sharingId=96680F5EE3CFEDCB" target="_blank">
+    <img src="https://learn.microsoft.com/en-gb/media/learn/certification/badges/github-foundations.svg" width="120" alt="GitHub Foundations" />
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.credly.com/badges/2786ccb9-4963-47a7-ba1a-ff17ce59954e/public_url" target="_blank">
-    <img src="https://images.credly.com/size/340x340/images/320bfb8f-e722-41b9-a70a-c3fb07402981/linkedin_thumb_blob" width="130" alt="AWS Cloud Quest: Solutions Architect" />
+    <img src="https://images.credly.com/size/340x340/images/320bfb8f-e722-41b9-a70a-c3fb07402981/blob" width="130" alt="AWS Cloud Quest: Solutions Architect" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.credly.com/badges/5eeff09f-c9e4-482d-93fe-57f8628ba7c8/public_url" target="_blank">
-    <img src="https://images.credly.com/size/340x340/images/5bdd6a39-3e03-4444-9510-ecff80c9ce79/linkedin_thumb_image.png" width="130" alt="Networking Basics - Cisco" />
+    <img src="https://images.credly.com/size/340x340/images/5bdd6a39-3e03-4444-9510-ecff80c9ce79/image.png" width="115" alt="Networking Basics - Cisco" />
   </a>
 </p>
 
